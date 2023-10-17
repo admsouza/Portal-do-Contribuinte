@@ -1,0 +1,88 @@
+.mx-auto{
+    width: 500px; background-color: #333;
+
+}
+
+.container-pai{
+    width: 480px; background-color: aliceblue;
+    display: flex;
+    border-radius: 5%;
+    
+}
+
+
+
+.box-titulo, span{
+
+    float: left;
+    margin-left: 150px;
+    margin-top: -1px;
+    font-size: 20px;
+    
+}
+.cont{
+    margin-top: -100px;
+
+}
+
+.container-02{
+    display: flex
+}
+
+.titulo{
+    margin-top: -70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #31708f;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #31708f;
+}
+
+.logo-brasao{
+    border-radius: 5%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.form-group{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 6px;
+}
+select{
+    margin: 10px;
+    font: inherit;
+
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+.cont{
+    width: 100%;
+    float: left;
+    margin-left: 1px;
+    margin-top: 20px;
+    font-size: px;
+}
+
